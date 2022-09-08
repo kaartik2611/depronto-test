@@ -12,7 +12,7 @@ const get = (url) => {
             <p class="card-text">${item.body}</p>
           </div>
         </div>
-        <button type="button" id=${item.id}  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal${item.id}">
+        <button type="button" id=${item.id}  class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal${item.id}">
           Launch Modal
         </button>
 
@@ -27,7 +27,7 @@ const get = (url) => {
                     <p class="card-text">${item.body}</p>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
