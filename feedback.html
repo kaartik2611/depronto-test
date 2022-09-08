@@ -64,5 +64,92 @@
       </div>
     </nav>
     <!-- navbar end -->
+    <div class="container mt-3">
+      <p class="display-6">FeedBack Form</p>
+      <form id="form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" />
+        </div>
+
+        <div class="mb-3">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date" />
+        </div>
+
+        <div class="mb-3">
+          <label for="feedback" class="form-label">Feedback Title</label>
+          <input type="text" class="form-control" id="feedback" />
+        </div>
+
+        <div class="mb-3">
+          <label for="feedbacktext">Your Feedback</label>
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="feedbacktext"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="gender">Gender</label>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gender"
+              id="male"
+              value="male"
+            />
+            <label class="form-check-label" for="male"> Male </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+            />
+            <label class="form-check-label" for="female"> Female </label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="checkbox"
+              value="c1"
+              id="c1"
+              checked
+            />
+            <label class="form-check-label" for="c1"> checkbox1 </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="checkbox"
+              value="c2"
+              id="c2"
+            />
+            <label class="form-check-label" for="c2"> Checkbox2 </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="checkbox"
+              value="c3"
+              id="c3"
+            />
+            <label class="form-check-label" for="c3"> Checkbox3 </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </body>
+  <script src="form.js"></script>
 </html>
