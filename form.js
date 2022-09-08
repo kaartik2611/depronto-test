@@ -13,5 +13,12 @@ form.addEventListener("submit", (e) => {
       check_arr.push(item.value);
     }
   });
-  console.log(fname, date, ftitle, feedback, gender, check_arr);
+  console.log({
+    fname: fname,
+    date: date,
+    ftitle: ftitle,
+    feedback: feedback,
+    gender: gender,
+    check: check_arr,
+  });
 });
